@@ -1,0 +1,98 @@
+
+.bg-blue {
+  background-color: #13aeff;
+}
+
+.gradient-title {
+  background: linear-gradient(
+    90deg,
+    rgba(251, 6, 6, 1) 0%,
+    rgba(42, 108, 227, 1) 35%,
+    rgba(10, 175, 65, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content {
+  font-family: "Fredoka One", cursive;
+  text-align: center;
+  font-size: 40px;
+  min-height: 500px;
+  margin-top: 1em;
+}
+
+#inicio {
+  height: 7em;
+}
+
+.scale:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+.card-body {
+  background: linear-gradient(
+    0deg,
+    rgba(235, 221, 26, 1) 0%,
+    rgba(255, 255, 255, 1) 94%
+  );
+}
+
+.card-border-radius {
+  border-radius: 25px !important;
+}
+
+.top-radius {
+  border-top-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+}
+
+.bottom-radius {
+  border-bottom-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #55aee6;
+  border-color: #55aee6;
+}
+
+.div-saiba-mais {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card-description {
+  min-height: 260px;
+}
+
+.about_img{
+    width: 100%;
+}
+
+.divider{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .card-img-top {
+    height: 200px;
+  }
+
+  .card-description {
+    min-height: 200px;
+  }
+
+  .ocultar-mobile {
+    display: none;
+  }
+}
