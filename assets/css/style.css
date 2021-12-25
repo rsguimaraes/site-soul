@@ -124,8 +124,6 @@
 
 .fa {
   margin: 10px 40px;
-<<<<<<< HEAD
-=======
 }
 
 .circle-img{
@@ -145,8 +143,10 @@
   margin-right: 0;
 }
 
+.times{
+  padding: 0px;
+  margin: 0px;
+}
 .times-img{
   width: 80%;
-  height: 80%;
->>>>>>> 55e753567b67c02980d36693fa2f62c471d93dd5
 }
