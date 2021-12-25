@@ -77,6 +77,11 @@
     margin-bottom: 150px;
 }
 
+.divider-grid{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 #activities{
   background: rgb(255,255,235);
   padding-top: 7em;
@@ -119,4 +124,29 @@
 
 .fa {
   margin: 10px 40px;
+<<<<<<< HEAD
+=======
+}
+
+.circle-img{
+  border-radius: 50%;
+}
+
+.activity-item{
+  text-align: center;
+}
+
+.activity-item p{
+  text-align: left;
+}
+
+.endereco {
+  margin-left: 700px;
+  margin-right: 0;
+}
+
+.times-img{
+  width: 80%;
+  height: 80%;
+>>>>>>> 55e753567b67c02980d36693fa2f62c471d93dd5
 }
