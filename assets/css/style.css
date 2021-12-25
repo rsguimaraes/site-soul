@@ -77,6 +77,11 @@
     margin-bottom: 150px;
 }
 
+.divider-grid{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 #activities{
   background: rgb(255,255,235);
   padding-top: 7em;
@@ -119,4 +124,16 @@
 
 .fa {
   margin: 10px 40px;
+}
+
+.circle-img{
+  border-radius: 50%;
+}
+
+.activity-item{
+  text-align: center;
+}
+
+.activity-item p{
+  text-align: left;
 }
