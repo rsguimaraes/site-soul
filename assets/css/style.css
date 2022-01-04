@@ -115,6 +115,10 @@
   .mobile-hidden {
     display: none;
   }
+
+  .divider{
+    height: 2em;
+  }
 }
 
 .footer_logo{
@@ -160,4 +164,31 @@ margin-top: 50px;
 }
 .redes_sociais{
   margin-bottom: 50px;
+}
+
+.fa-facebook-f{
+  color: #3b5998
+}
+
+.fa-instagram{
+  color: #ac2bac
+}
+
+.fa-youtube-play{
+  color: red;
+}
+
+.fa-map-marker{
+  color: #FF0000; 
+  margin: 0 5px !important;
+}
+
+.fa-whatsapp{
+  color: #25d366; 
+  margin: 0 5px !important;
+}
+
+.logo{
+  width: 2em;
+  height: 2em;
 }
