@@ -192,3 +192,69 @@ margin-top: 50px;
   width: 2em;
   height: 2em;
 }
+
+.carousel-item{
+  min-height: 300px;
+}
+
+.week-day{
+  text-align: center;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.red-day{
+  background-color: #F18C8C;
+}
+
+.green-day{
+  background-color: #19AD8E;
+}
+
+.red-border{
+  border: 1px solid #F18C8C;
+}
+.green-border{
+  border: 1px solid #19AD8E;
+}
+
+.schedules-day{
+  background-color: #F8F7ED;
+  height: 7rem;
+}
+
+.center-card{
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+.time{
+  font-weight: bold;
+  padding: 1rem;
+}
