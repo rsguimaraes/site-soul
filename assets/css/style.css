@@ -258,3 +258,10 @@ margin-top: 50px;
   font-weight: bold;
   padding: 1rem;
 }
+
+
+figure{
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
